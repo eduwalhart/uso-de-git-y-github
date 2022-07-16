@@ -6,14 +6,26 @@
 .h1{
     text-align: center;
     text-transform: capitalize;
+    color: blueviolet;
 
 }
 .nav{
    height: 200px;
    width: 100%;
     background-color: beige;
+   
+}
+.nav a{
+    text-decoration: none;
+    float: right;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .bod{
     background-color: rgb(255, 166, 0);
-    
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    background-image: url(./img/dibujo.jpg);
 }

@@ -30,3 +30,69 @@
     background-size: cover;
     background-image: url(./img/dibujo.jpg);
 }
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 200px 200px 200px;
+    padding: 20px;
+    grid-gap: 10px;
+    background-color: rgba(248, 0, 0, 0.575);
+ 
+
+}
+.item{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.item:hover{
+    transform: scale(1.05);
+    transition: all 0.8s;
+    box-shadow: 2px 2px 5px #333;
+}
+.item1{
+    grid-column: 1/2;
+    grid-row: 1/4 ;
+    background-image: url(./img/images\ \(6\).jfif);
+    background-position: center;
+    background-size: cover;
+}
+.item2{
+    grid-column:2/3 ;
+    grid-row: 1/2;
+    background-image: url(./img/images\ \(2\).jfif);
+    background-position: center;
+    background-size: contain;
+}
+.item3{
+    grid-column: 3/5;
+    grid-row: 1/2;
+    background-image: url(./img/images\ \(4\).jfif);
+    background-position: center;
+    background-size: contain;
+}
+.item4{
+    grid-column:2/3 ;
+    grid-row: 2/4;
+    background-image: url(./img/images\ \(3\).jfif);
+    background-position:;
+    background-size: cover;
+}
+.item5{
+    grid-column: 3/5;
+    grid-row: 2/3;
+    background-image: url(./img/images\ \(5\).jfif);
+    background-position:center;
+    background-size: contain;
+}
+.item6{
+    grid-column:3/5 ;
+    grid-row:3/4 ;
+    background-image: url(./img/images\ \(1\).jfif);
+    background-position: c
+    background-size: cover;
+   
+}   
+
+
+
+

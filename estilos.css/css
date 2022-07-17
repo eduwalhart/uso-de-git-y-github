@@ -12,7 +12,7 @@
 .nav{
    height: 200px;
    width: 100%;
-    background-color: beige;
+    background-color: rgb(167, 167, 33);
    
 }
 .nav a{
@@ -22,6 +22,11 @@
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-orientation: sideways;
+}
+.nav a:hover{
+   color: azure;
+   font-size: 30px;
+    transition: all 0.5s;
 }
 .bod{
     background-color: rgb(255, 166, 0);
@@ -36,7 +41,7 @@
     grid-template-rows: 200px 200px 200px;
     padding: 20px;
     grid-gap: 10px;
-    background-color: rgba(248, 0, 0, 0.575);
+    background-color: rgba(117, 117, 8, 0.448);
  
 
 }
@@ -74,7 +79,6 @@
     grid-column:2/3 ;
     grid-row: 2/4;
     background-image: url(./img/images\ \(3\).jfif);
-    background-position:;
     background-size: cover;
 }
 .item5{
@@ -88,9 +92,9 @@
     grid-column:3/5 ;
     grid-row:3/4 ;
     background-image: url(./img/images\ \(1\).jfif);
-    background-position: c
     background-size: cover;
    
+
 }   
 
 
